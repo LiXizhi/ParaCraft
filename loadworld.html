@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>redirect to paracraft world</title>
+</head>
+<body>
+正在为您打开世界：
+
+<script type="text/javascript">
+function getRequests() {
+    var s1 = location.search.substring(1, location.search.length).split('&'),
+        r = {}, s2, i;
+    for (i = 0; i < s1.length; i += 1) {
+        s2 = s1[i].split('=');
+        r[decodeURIComponent(s2[0]).toLowerCase()] = decodeURIComponent(s2[1]);
+    }
+    return r;
+};
+var QueryString = getRequests();
+if(QueryString["world"]){
+    window.location = "paracraft://" + QueryString["world"];
+}
+else{
+    document.write("Invalid url input, please use following format<br/>");
+    document.write("loadworld.html?world=https://github.com/LiXizhi/HourOfCode/archive/master.zip");
+}
+</script>
+</body>
+</html>
+
