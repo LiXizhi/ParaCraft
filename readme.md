@@ -6,5 +6,6 @@
 ### World Redirection
 if you have a world zip file like 'https://github.com/LiXizhi/HourOfCode/archive/master.zip', 
 you can use following url to let the user automatically download and open your world
-`loadworld.html?https://github.com/LiXizhi/HourOfCode/archive/master.zip`  
+
+[http://lixizhi.github.io/ParaCraft/loadworld.html?world=https://github.com/LiXizhi/HourOfCode/archive/master.zip](http://lixizhi.github.io/ParaCraft/loadworld.html?world=https://github.com/LiXizhi/HourOfCode/archive/master.zip)  
 
