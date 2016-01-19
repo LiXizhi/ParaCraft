@@ -4,7 +4,7 @@
       <div class="col-md-12">
         <a href="mailto:{{ site.email }}"><span class="glyphicon glyphicon-envelope"></span> {{ site.email }}</a>
         <span class="point"> · </span>
-        {% if site.github_username %}
+          {% if site.github_username %}
           <a href="https://github.com/{{ site.github_username }}">
             <span class="icon">
               <svg viewBox="0 0 16 16">
@@ -16,7 +16,7 @@
           </a>
           {% endif %}
           <span class="point"> · </span>
-          <span><a href="https://github.com/{{ site.github_username }}/{{ site.github_username }}.github.io/blob/master/{{ page.path }}">View source</a></span>
+          <span><a href="{{ site.viewsourceroot }}{{ page.path }}">View source</a></span>
           <span class="point"> · </span>
           <span><a class="newpost" href="javascript:;">New post</a></span>
 		  <span class="point"> · </span>

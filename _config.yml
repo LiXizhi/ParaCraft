@@ -12,7 +12,8 @@ baseurl: "/ParaCraft" # the subpath of your site, e.g. /blog
 # twitter_username: jekyllrb
 github_username: LiXizhi
 permalink: /:year/:month/:day/:title/
-
+# this is the url root of the view source link on the footer page.
+viewsourceroot: https://github.com/LiXizhi/ParaCraft/blob/gh-pages/
 #########################################
 # for duoshuo.com commenting system, uncomment following line if you do not want to include duoshuo.com. 
 duoshuo_shortname: lixizhi
