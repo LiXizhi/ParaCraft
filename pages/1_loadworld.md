@@ -27,35 +27,20 @@ function LoadWorld(){
 $(LoadWorld);
 </script>
 
-<h3>Load World with Paracraft</h3>
+## 加载世界 / Load World
 <div id="url"></div>
-<p>
-    <iframe id="myframe" width="100%" height="300px">
-        loadworld.html?world=111.zip
-    </iframe>
-</p>
-<div style="clear:both"></div>
-<div style="float:left;min-width:380px;padding:5px;margin:5px;border :2px solid black;">
-    <b>中文: 如果世界没有自动加载</b>
-    <p>
-        请点击<a href="http://www.paracraft.cn/">这里</a>下载并安装paracraft客户端.
-    </p>
-    <b>手工激活paracraft网络协议</b>
-    <p>
-        在paracraft中输入命令: <b>/registerurlprotocol</b>
-    </p>
-</div>
-<div style="float:left;min-width:380px;padding:5px;margin:5px;border :2px solid black;">
-    <b>English: If world does not load automatically</b>
-    <p>
-        please click <a href="http://www.paracraft.cn/">here</a> to download and install the software.
-    </p>
-    <b>manually activate paracraft network protocol </b>
-    <p>
-        In paracraft, enter command: <b>/registerurlprotocol</b>
-    </p>
-</div>
-<div style="clear:both"></div>
+<iframe id="myframe" width="0px" height="0px" style="display:none"></iframe>
+
+**需要安装Paracraft才能打开世界**
+
+> 请点击[这里](http://www.paracraft.cn/)下载并安装
+    
+在Paracraft中输入命令激活URL协议：`/registerurlprotocol`
+        
+**Paracraft software is required to open the world** 
+> please click [here](http://www.paracraft.cn/) to download and install.
+
+In paracraft, activate url protocol with command: `/registerurlprotocol`
 
 * **Usage:**  `loadworld?world=[world_filename.zip]`
 * **Example:** `http://lixizhi.github.io/ParaCraft/loadworld?world=https://github.com/LiXizhi/HourOfCode/archive/master.zip`
