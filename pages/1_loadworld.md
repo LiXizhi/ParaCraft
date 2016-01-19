@@ -3,7 +3,6 @@ layout: page
 title: loadworld
 comments: true
 permalink: /loadworld/
-icon: glyphicon-file
 ---
 
 <script>
