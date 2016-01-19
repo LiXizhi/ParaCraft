@@ -56,11 +56,7 @@ $(LoadWorld);
     </p>
 </div>
 <div style="clear:both"></div>
-<h3>Usage</h3>
-<p>
-    loadworld.html?world=[world_filename.zip]
-</p>
-<h3>Examples</h3>
-<p>
-    <a href="?world=https://github.com/LiXizhi/HourOfCode/archive/master.zip">loadworld.html?world=https://github.com/LiXizhi/HourOfCode/archive/master.zip</a>
-</p>
+
+> **Usage:**  `loadworld/?world=[world_filename.zip]`
+
+> **Example:** `{{page.url}}?world=https://github.com/LiXizhi/HourOfCode/archive/master.zip`
