@@ -57,6 +57,5 @@ $(LoadWorld);
 </div>
 <div style="clear:both"></div>
 
-> **Usage:**  `loadworld/?world=[world_filename.zip]`
-
-> **Example:** `{{page.url}}?world=https://github.com/LiXizhi/HourOfCode/archive/master.zip`
+> **Usage:**  `loadworld?world=[world_filename.zip]`
+> **Example:** `http://lixizhi.github.io/ParaCraft/loadworld?world=https://github.com/LiXizhi/HourOfCode/archive/master.zip`
