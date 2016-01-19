@@ -2,7 +2,7 @@
 layout: page
 title: About
 comments: true
-permalink: /about/
+permalink: /about
 icon: glyphicon-heart
 ---
 

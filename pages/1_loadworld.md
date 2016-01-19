@@ -2,7 +2,7 @@
 layout: page
 title: loadworld
 comments: true
-permalink: /loadworld/
+permalink: /loadworld
 icon: glyphicon-file
 ---
 
