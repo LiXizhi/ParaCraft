@@ -26,7 +26,7 @@ function LoadWorld(){
 $(LoadWorld);
 </script>
 
-## 加载世界 / Load World
+## 加载世界 | Load World
 <div id="url"></div>
 <iframe id="myframe" width="0px" height="0px" style="display:none"></iframe>
 
