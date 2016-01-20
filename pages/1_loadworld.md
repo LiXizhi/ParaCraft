@@ -18,8 +18,7 @@ function getRequests() {
 function LoadWorld(){
     var QueryString = getRequests();
     if(QueryString["world"]){
-        var url_filename = "<a href=\"{0}\">{1}</a>";
-        var url = "paracraft://cmd/loadworld " + (url_filename.format(QueryString["world"], QueryString["world"]));
+        var url = "paracraft://cmd/loadworld " + "<a href=\"" + QueryString["world"] + "\">" + QueryString["world"] + "</a>";
         document.getElementById('myframe').src = url;
         document.getElementById('url').innerHTML = url;
     }
