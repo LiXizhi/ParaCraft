@@ -18,7 +18,7 @@ function getRequests() {
 function LoadWorld(){
     var QueryString = getRequests();
     if(QueryString["world"]){
-        var url = "paracraft://cmd/loadworld " + ("<a href='{0}'>{1}</a>".format(QueryString["world"], QueryString["world"])));
+        var url = "paracraft://cmd/loadworld " + ("<a href='{0}'>{1}</a>".format(QueryString["world"], QueryString["world"]));
         document.getElementById('myframe').src = url;
         document.getElementById('url').innerHTML = url;
     }
