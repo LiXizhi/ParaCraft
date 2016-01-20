@@ -18,9 +18,10 @@ function getRequests() {
 function LoadWorld(){
     var QueryString = getRequests();
     if(QueryString["world"]){
-        var url = "paracraft://cmd/loadworld " + "<a href=\"" + QueryString["world"] + "\">" + QueryString["world"] + "</a>";
+        var url = "paracraft://cmd/loadworld " + QueryString["world"];
         document.getElementById('myframe').src = url;
-        document.getElementById('url').innerHTML = url;
+        var url_display = "paracraft://cmd/loadworld " + "<a href=\"" + QueryString["world"] + "\">" + QueryString["world"] + "</a>";
+        document.getElementById('url').innerHTML = url_display;
     }
 }
 $(LoadWorld);
