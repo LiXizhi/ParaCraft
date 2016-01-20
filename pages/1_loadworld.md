@@ -18,7 +18,7 @@ function getRequests() {
 function LoadWorld(){
     var QueryString = getRequests();
     if(QueryString["world"]){
-        var url = "paracraft://cmd/loadworld " + QueryString["world"];
+        var url = "paracraft://cmd/loadworld " + "<a href='{0}'>{0}</a>".format(QueryString["world"]);
         document.getElementById('myframe').src = url;
         document.getElementById('url').innerHTML = url;
     }
@@ -27,7 +27,9 @@ $(LoadWorld);
 </script>
 
 ## 加载世界 | Load World
-<div id="url"></div>
+
+> <div id="url">paracraft://cmd/loadworld url_filename</div>
+
 <iframe id="myframe" width="0px" height="0px" style="display:none"></iframe>
 
 ---
