@@ -2,7 +2,8 @@
     function OnClickNewPost()
     {
         var title = prompt("Please enter title of your post");
-        if (title!=null){
+        if (title!=null)
+        {
             title = title.replace(" ", "-");
             var currentdate = new Date();
             var urlNewPage = "{{ site.newsourceroot }}?filename=_posts/"
