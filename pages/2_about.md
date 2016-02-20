@@ -10,10 +10,19 @@ permalink: /about/
 
 ## About the site
 
-<div class="container">
+<div class="container-fluid">
   <div class="row">
-    <div class="col-sm-4">.col-sm-4</div>
-    <div class="col-sm-4">.col-sm-4</div>
-    <div class="col-sm-4">.col-sm-4</div>
+    <div class="col-sm-4 panel panel-default">
+        <div class="panel-heading">Panel Heading</div>
+        <div class="panel-body">Panel Content</div>
+    </div>
+    <div class="col-sm-4 panel panel-default">
+        <div class="panel-heading">Panel Heading</div>
+        <div class="panel-body">Panel Content</div>
+    </div>
+    <div class="col-sm-4 panel panel-default">
+        <div class="panel-heading">Panel Heading</div>
+        <div class="panel-body">Panel Content</div>
+    </div>
   </div>
 </div>
