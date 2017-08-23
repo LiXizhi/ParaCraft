@@ -2,5 +2,10 @@ npl_packages/
 Mod/
 build/
 bin/
+*.txt
+!config.txt
+*.log
+worlds/DesignHouse/*
+!worlds/DesignHouse/test
 .vs/
 *.zip

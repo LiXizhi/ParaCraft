@@ -1,0 +1,4 @@
+
+<pe:mcml>
+	<pe:world create_date="2017-8-22" desc="" name="test" nid="0" renderdist="" rendermethod="" seed="test" shadow="" size="61838" texture_pack_path="worlds/BlockTextures/official/Paracraft32xMixed_r1.zip" texture_pack_text="混搭材质包" texture_pack_type="official" texture_pack_url="http://www.paraengine.com/twiki/pub/CCWeb/RecommendedTextureListData/Paracraft32xMixed.zip" totaltime="11108" waterreflection="" world_generator="custom"/>
+</pe:mcml>

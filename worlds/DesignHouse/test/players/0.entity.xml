@@ -1,0 +1,4 @@
+
+<entity anim="Create" bx="19212" by="71" bz="19186" class="Player" displayName="0" facing="-1.1078548431396" item_id="30002" motionX="0" motionY="0" motionZ="0" name="default" onGround="true" rotationYaw="-1.1078548431396">
+	<abilities/>
+</entity>

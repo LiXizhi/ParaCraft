@@ -1,0 +1,12 @@
+-- auto gen by ParaEngine
+Heightmapfile = _emptyworld/flat.raw
+MainTextureFile = Texture/tileset/generic/MainTexture.dds
+CommonTextureFile = Texture/tileset/generic/whitesand.dds
+Size = 533.333313
+ElevScale = 1.0
+Swapvertical = 1
+HighResRadius = 30
+DetailThreshold = 50.000000
+MaxBlockSize = 64
+DetailTextureMatrixSize = 64
+NumOfDetailTextures = 0
