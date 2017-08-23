@@ -1,0 +1,6 @@
+npl_packages/
+Mod/
+build/
+bin/
+.vs/
+*.zip
