@@ -9,3 +9,5 @@ worlds/DesignHouse/*
 !worlds/DesignHouse/test
 .vs/
 *.zip
+/Database
+/*.so
