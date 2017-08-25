@@ -1,0 +1,6 @@
+[submodule "npl_packages/main"]
+	path = npl_packages/main
+	url = https://github.com/NPLPackages/main.git
+[submodule "npl_packages/paracraft"]
+	path = npl_packages/paracraft
+	url = https://github.com/NPLPackages/paracraft.git
