@@ -11,3 +11,4 @@ worlds/DesignHouse/*
 *.zip
 /Database
 /*.so
+/worlds/BlockTextures
