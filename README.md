@@ -5,7 +5,7 @@ This is a pure paracraft server.
 Install [NPLRuntime](https://github.com/LiXizhi/NPLRuntime) first and then clone this respository and run `./start.sh`
 
 ```
-git clone https://github.com/LiXizhi/paracraft.git
+git clone --recursive https://github.com/LiXizhi/paracraft.git
 cd paracraft
 ./start.sh
 ```
