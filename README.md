@@ -14,3 +14,18 @@ package dependencies: (already included in git submodules)
 - main
 - paracraft
 
+## Start Pure Server
+Starting a pure server with the default port with `./start.sh`. It is recommended that you launch the server app in your docker container.
+One can also start pure server with any world like `worlds/DesignHouse/test` and ip/port. See below.
+
+```
+npl servermode="true" world="worlds/DesignHouse/test" ip="0.0.0.0" port="6001" loadpackage="npl_packages/paracraft/" bootstrapper="script/apps/Aries/Creator/Game/main.lua"
+```
+
+One can also run from any folder like `/opt/server_001/` with the `dev` param. Please note the world directory must always be relative to dev folder or current working directory. 
+
+```
+npl servermode="true" world="worlds/DesignHouse/test" ip="0.0.0.0" port="6001" loadpackage="npl_packages/paracraft/" bootstrapper="script/apps/Aries/Creator/Game/main.lua" dev="/opt/server_001/"
+```
+
+> Note: the world must have a default home point set. 
