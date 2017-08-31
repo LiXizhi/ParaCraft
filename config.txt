@@ -1,1 +1,0 @@
-cmdline=noupdate="true" debug="main" mc="true" bootstrapper="script/apps/Aries/Creator/Game/main.lua"
