@@ -29,11 +29,12 @@ npl world="worlds/DesignHouse/test" port="6001" loadpackage="npl_packages/paracr
 ```
 
 ## Command Line Parameters
-- port: default to 6001
-- ip: default to "0.0.0.0", which is all ip addresses. If you are inside a docker, "127.0.0.1" is a better choice.
-- autosave:  How many minutes to automatically save the world. If not specified, the world is never saved, and your changes may be lost.  - servermode: default to true. 
-- loadpackage: this should always be "npl_packages/paracraft/". make sure you have latest version checked out from our git, in addition to "npl_packages/main/"
 - world: the world directory that this server serves.  ==Note: the world must have a default home point set.==
+- ip: default to "0.0.0.0", which is all ip addresses. If you are inside a docker, "127.0.0.1" is a better choice.
+- port: default to 6001
+- autosave:  How many minutes to automatically save the world. If not specified, the world is never saved, and your changes may be lost.
+- servermode: default to true. 
+- loadpackage: this should always be "npl_packages/paracraft/". Make sure you have latest version checked out from our git, in addition to "npl_packages/main/"
 - dev: the development directory. The logics is intrinsic to NPLRuntime. The world directory is searched in dev folder first and then in current working directory. 
 
 Here is an example with all parameters:
