@@ -3,7 +3,7 @@ Paracraft can be started in Client mode or Server mode. Clieng mode is a 3d appl
 The source code is inside git submodules. 
 
 ## Install Guide
-Install [NPLRuntime](https://github.com/LiXizhi/NPLRuntime) first and then clone this respository and run `./start.sh`
+Install [NPLRuntime](https://github.com/LiXizhi/NPLRuntime) first and then clone this respository and run `./start.sh` or `./paracraft.bat` for win32 3D client.
 
 ```
 git clone --recursive https://github.com/LiXizhi/paracraft.git
@@ -12,11 +12,12 @@ cd paracraft
 ```
 
 package dependencies: (already included in git submodules)
-- main
-- paracraft
+- [main](https://github.com/NPLPackages/main)
+- [paracraft](https://github.com/NPLPackages/paracraft)
+- [ParacraftBuildinMod](https://github.com/tatfook/ParacraftBuildinMod)
 
 ## Start Paracraft Client
-Start by running `paracraft.bat`, or from NPLRuntime using following commandl line parameters. 
+Start by running `paracraft.bat`, or from NPLRuntime using following command line parameters. 
 ```
 npl mc="true" loadpackage="npl_packages/paracraft/" bootstrapper="script/apps/Aries/main_loop.lua"
 ```
