@@ -1,0 +1,27 @@
+<Items>
+  <Item commandname="Profile.Aries.ToggleFly" key="f" params=''/>
+  <Item commandname="MiniGames.Throw_ShuiQiu" key="1" params=''/>
+  <Item commandname="MiniGames.Throw_GuoDong" key="2" params=''/>
+  <Item commandname="MiniGames.Throw_BianPao" key="3" params=''/>
+  <Item commandname="MiniGames.Throw_SnowBall" key="4" params=''/>
+  <Item commandname="MiniGames.Throw_CandyBall" key="5" params=''/>
+  <Item commandname="Profile.HomeLand.DoFacing_Left" key="LBRACKET" params=''/>
+  <Item commandname="Profile.HomeLand.DoFacing_Right" key="RBRACKET" params=''/>
+  <Item commandname="Profile.HomeLand.DoZoomIn" key="EQUALS" params=''/>
+  <Item commandname="Profile.HomeLand.DoZoomOut" key="MINUS" params=''/>
+  <Item commandname="ScreenShot.HideAllUI" key="Ctrl+F12" params=''/>
+  <!-- map -->
+  <Item commandname="Profile.Aries.LocalMap" key="m" params=''/>
+  <!-- card -->
+  <Item commandname="Profile.Aries.SpecialAreaShow" key="c" params='{id=2}'/>
+  <!-- bag -->
+  <Item commandname="Profile.Aries.SpecialAreaShow" key="b" params='{id=3}'/>
+  <!-- quest log -->
+  <Item commandname="Profile.Aries.ShowQuestList" key="l" params=''/>
+  <!-- combat pet-->
+  <Item commandname="Profile.Aries.ShowCombatPetPage" key="p" params=''/>
+  <!-- magic star-->
+  <Item commandname="Profile.Aries.ShowMagicStarPage" key="v" params=''/>
+  <!-- family-->
+  <Item commandname="Profile.Aries.MyFamilyWnd" key="j" params=''/>
+</Items>

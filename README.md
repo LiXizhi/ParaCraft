@@ -1,5 +1,6 @@
-# Paracraft Server App
-This is a pure paracraft server. 
+# Paracraft Client/Server App
+Paracraft can be started in Client mode or Server mode. Clieng mode is a 3d application. Server mode can be run under linux without any GUI. 
+The source code is inside git submodules. 
 
 ## Install Guide
 Install [NPLRuntime](https://github.com/LiXizhi/NPLRuntime) first and then clone this respository and run `./start.sh`
@@ -13,6 +14,13 @@ cd paracraft
 package dependencies: (already included in git submodules)
 - main
 - paracraft
+
+## Start Paracraft Client
+Start by running `paracraft.bat`, or from NPLRuntime using following commandl line parameters. 
+```
+npl mc="true" loadpackage="npl_packages/paracraft/" bootstrapper="script/apps/Aries/main_loop.lua"
+```
+To install and debug buildin system mod, please also run `npl_packages/ParacraftBuildinMod/InstallPackages.bat`
 
 ## Start Pure Server
 Starting a pure server with the default port with `./start.sh`. It is recommended that you launch the server app in your docker container.

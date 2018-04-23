@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameClient>
+  <config version="kids" use_game_server="true" region = "7" public_files="config/NPLPublicFiles.xml">
+  </config>
+
+  <!--all known NPCs and their class files-->
+  <npc_files>
+    <npc_file npc_file="config/Aries.AllClientNPC.xml"/>
+  </npc_files>
+
+  <!--the asset server-->
+  <asset_server_addresses bg_loader_list ="http://update.61.com/haqi/assetupdate">
+        <address host="http://update.61.com/haqi/assetupdate/"/>
+  </asset_server_addresses>
+  
+  <patch_server_addresses>
+    <address host="http://update.61.com/haqi/coreupdate/" version_host="http://tmlog.paraengine.com/"/>
+  </patch_server_addresses>
+
+  <chat_server_addresses api_file="config/JabberAPI.config.xml" domain="tm.test.pala5.cn">
+    <!-- no use -->
+    <address host="tm.chat1.pala5.cn" port="443"/>
+    <address host="tm.chat2.pala5.cn" port="443"/>
+  </chat_server_addresses>
+
+  <web_domain domain="test.pala5.cn">
+    <log_server host="http://tmlog.paraengine.com"/>
+    <file_server host="http://tmland.paraengine.com"/>
+    <login_news_page host="http://tmlog.paraengine.com/HaqiNewsPage.php"/>
+  </web_domain>
+  
+  <world_server_addresses>
+    <address host="120.132.120.187" port="8868" port2="80" whereipfrom="电信" nid="1001" allow_login="true"/>
+    <address host="120.132.120.188" port="8868" port2="80" whereipfrom="电信"  nid="1004" allow_login="true"/>
+    <address host="120.132.120.189" port="8868" port2="80" whereipfrom="电信"  nid="1005" allow_login="true"/>
+  </world_server_addresses>
+  <platforms>
+    <!--only trusted domain can be used as callback. -->
+	<platform name="KEEPWORK" enabled="true" ></platform>
+    <platform name="taomee" enabled="true" ></platform>
+    <platform name="QQ" enabled="true" client_id="100302176" auth_callback_url = "http://share.paraengine.com/qq_callback.htm"></platform>
+    <platform name="FB" enabled="false" client_id="122316571254636" auth_callback_url = "http://share2.paraengine.com/fb_callback.htm"></platform>
+  </platforms>
+</GameClient>

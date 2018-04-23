@@ -4,3 +4,6 @@
 [submodule "npl_packages/paracraft"]
 	path = npl_packages/paracraft
 	url = https://github.com/NPLPackages/paracraft.git
+[submodule "npl_packages/ParacraftBuildinMod"]
+	path = npl_packages/ParacraftBuildinMod
+	url = https://github.com/tatfook/ParacraftBuildinMod.git

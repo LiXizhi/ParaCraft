@@ -2,6 +2,9 @@ npl_packages/
 Mod/
 build/
 bin/
+temp/
+fonts/
+Database/
 *.txt
 !config.txt
 *.log
@@ -12,3 +15,4 @@ worlds/DesignHouse/*
 /Database
 /*.so
 /worlds/BlockTextures
+!assets_manifest.txt
