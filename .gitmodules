@@ -1,9 +1,11 @@
 [submodule "npl_packages/main"]
 	path = npl_packages/main
 	url = https://github.com/NPLPackages/main.git
+	branch = dev
 [submodule "npl_packages/paracraft"]
 	path = npl_packages/paracraft
 	url = https://github.com/NPLPackages/paracraft.git
+	branch = master
 [submodule "npl_packages/ParacraftBuildinMod"]
 	path = npl_packages/ParacraftBuildinMod
 	url = https://github.com/tatfook/ParacraftBuildinMod.git
