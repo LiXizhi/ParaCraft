@@ -7,6 +7,10 @@ CALL :InstallPackage main https://github.com/nplpackages/main
 CALL :InstallPackage paracraft https://github.com/nplpackages/paracraft
 CALL :InstallPackage ParacraftBuildinMod https://github.com/tatfook/ParacraftBuildinMod
 
+pushd ParacraftBuildinMod
+build.bat
+popd
+
 popd
 
 EXIT /B %ERRORLEVEL%
