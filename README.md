@@ -36,6 +36,13 @@ One can also run from any folder like `/opt/server_001/` with the `dev` param. P
 ```
 npl world="worlds/DesignHouse/test" port="6001" loadpackage="npl_packages/paracraft/" dev="/opt/server_001/"
 ```
+## Start Lobby Tunnel Server
+Starting a Lobyy Tunnel Server 
+```
+npl loadpackage="npl_packages/paracraft/" bootstrapper="script/apps/Aries/Creator/Game/Network/TunnelService/LobbyTunnelServer_main.lua"
+```
+this server only listen on tcp port 8099 and udp port 8099.
+
 
 ## Command Line Parameters
 - `world`: the world directory that this server serves.  ==Note: the world must have a default home point set.==
